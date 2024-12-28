@@ -34,6 +34,7 @@ export default function App() {
       </head>
       <body>
         <Nav />
+        <div className="mx-4"
         <Outlet />
         <ScrollRestoration />
         <Scripts />
