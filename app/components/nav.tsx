@@ -18,10 +18,10 @@ const Nav = () => {
         </a>
         {/* Navbar */}
         <nav className="hidden md:ml-auto md:flex flex-wrap items-center justify-center text-base tracking-wide">
-          <a href="#link" className="mr-8 hover:text-gray-300">Solutions</a>
-          <a href="#link" className="mr-8 hover:text-gray-300">Prices</a>
-          <a href="#link" className="mr-8 hover:text-gray-300">About</a>
-          <a href="https://morrisonj.com" className="mr-8 hover:text-gray-300">Contact</a>
+          <a href="solutions" className="mr-8 hover:text-gray-300">Solutions</a>
+          <a href="prices" className="mr-8 hover:text-gray-300">Prices</a>
+          <a href="about" className="mr-8 hover:text-gray-300">About</a>
+          <a href="contact" className="mr-8 hover:text-gray-300">Contact</a>
         </nav>
         {/* Avatar */}
         <div className="hidden sm:inline-flex ml-auto md:ml-0 mr-4 md:mr-0 cursor-pointer">
@@ -43,10 +43,10 @@ const Nav = () => {
       {/* :MOBILE MENU */}
       { isOpen &&
         <div className="w-full flex flex-col py-4 px-3 md:hidden bg-gray-900 text-base uppercase text-center font-semibold">
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Solutions</a>
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Prices</a>
-          <a href="#link" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">About</a>
-          <a href="https://morrisonj.com" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
+          <a href="solutions" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Solutions</a>
+          <a href="prices" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Prices</a>
+          <a href="about" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">About</a>
+          <a href="contact" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700">Contact</a>
         </div>
       }
       
